@@ -1,13 +1,11 @@
-import { Home, Sidebar, Modal } from "./components";
+import { Home, Sidebar, Modal } from './components';
 
 function App() {
   return (
     <>
-      <main>
-        <Home />
-        <Sidebar />
-        <Modal />
-      </main>
+      <Home />
+      <Sidebar />
+      <Modal />
     </>
   );
 }
