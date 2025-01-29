@@ -1,6 +1,4 @@
-import Home from "./Home";
-import Modal from "./Modal";
-import Sidebar from "./Sidebar";
+import { Home, Sidebar, Modal } from "./components";
 
 function App() {
   return (

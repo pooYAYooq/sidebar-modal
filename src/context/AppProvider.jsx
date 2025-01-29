@@ -1,10 +1,7 @@
-import { useContext, createContext, useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useState } from "react";
+import { AppContext } from "./context";
 
-// Create a context object
-const AppContext = createContext();
-
-// Create a custom hook to use the context object
-export const useGlobalContext = () => useContext(AppContext);
 
 export const AppProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
